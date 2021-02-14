@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_concept_items",
+  "info": {
+    "name": "conceptItem",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
