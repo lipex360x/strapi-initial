@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_box_items",
+  "info": {
+    "name": "boxItems",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "benefitItem": {
+      "type": "string",
+      "required": true,
+      "default": "bullet list"
+    }
+  }
+}

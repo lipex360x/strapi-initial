@@ -46,6 +46,16 @@
       "type": "component",
       "repeatable": false,
       "component": "page.modules"
+    },
+    "agenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.agenda"
+    },
+    "princingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.princing-box"
     }
   }
 }
