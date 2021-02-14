@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_tech_items",
+  "info": {
+    "name": "techItems",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

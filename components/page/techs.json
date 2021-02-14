@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_techs",
+  "info": {
+    "name": "techs",
+    "icon": "toolbox"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-items"
+    }
+  }
+}
