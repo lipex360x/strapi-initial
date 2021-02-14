@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_modules",
+  "info": {
+    "name": "modules",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "moduleItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module-items",
+      "min": 2
+    }
+  }
+}
