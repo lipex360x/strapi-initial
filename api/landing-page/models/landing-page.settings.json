@@ -61,6 +61,18 @@
       "type": "component",
       "repeatable": false,
       "component": "page.authors"
+    },
+    "review": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.review",
+      "required": true
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.faqs",
+      "required": true
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "review",
+    "icon": "flushed"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviewItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review-items",
+      "min": 4
+    }
+  }
+}

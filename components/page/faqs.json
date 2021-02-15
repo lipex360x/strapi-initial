@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_faqs",
+  "info": {
+    "name": "faqs",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.questions"
+    }
+  }
+}
