@@ -43,6 +43,11 @@
       "repeatable": false,
       "component": "page.reviews",
       "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.faq"
     }
   }
 }

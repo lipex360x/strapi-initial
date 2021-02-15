@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_faqs",
+  "info": {
+    "name": "faq",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.question",
+      "min": 2
+    }
+  }
+}
