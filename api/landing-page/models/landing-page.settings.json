@@ -56,6 +56,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.princing-box"
+    },
+    "authors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.authors"
     }
   }
 }
