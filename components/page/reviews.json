@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviewItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review-item",
+      "required": true,
+      "min": 4
+    }
+  }
+}
